@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+p {
+  color: hsl(208, 11%, 55%);
+}
+.landing-page {
+  background-image: url("./images/bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
+}
+#first-p {
+  color: hsl(192, 100%, 9%);
+}
+.header {
+  display: block;
+  padding: 30px 50px 0px 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+#try {
+  color: hsl(192, 100%, 9%);
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+}
+#logo {
+  width: 150px;
+}
+.content {
+  display: flex;
+  margin: 30px 20px;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 50%;
+  text-align: justify;
+  padding: 50px;
+  gap: 20px;
+}
+.content img {
+  width: 80%;
+}
+.right {
+  gap: 20px;
+  text-align: center;
+}
+
+#get {
+  width: 50%;
+  height: 5vh;
+  border: none;
+  border-radius: 15px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+.others {
+  border: none;
+  border-radius: 15px;
+  width: 92%;
+  margin: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 50px;
+}
+#last-div {
+  margin-bottom: 150px;
+}
+
+.get {
+  position: absolute;
+  padding-top: 10px;
+  left: 250px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 60%;
+  height: 20vh;
+  border-radius: 15px;
+  overflow: hidden;
+  z-index: -1px;
+}
+.get button {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.get h1 {
+  text-align: center;
+}
+
+#logo1 {
+  width: 150px;
+  margin-left: 45px;
+  margin-bottom: 5px;
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+  margin-top: 200px;
+  padding: 110px;
+}
+.wrapper {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+.firstdiv {
+  display: flex;
+}
+
+#informations {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#informations p {
+  padding-bottom: 15px;
+}
+#icons img {
+  display: block;
+  padding-top: 30px;
+}
+
+#secondp {
+  margin-bottom: 12px;
+}
+
+.footer-1 p {
+  padding-top: 18px;
+  text-align: justify;
+}
+
+.fa {
+  font-size: 15px;
+  margin-top: 13px;
+  margin-right: 10px;
+  color: white;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border: solid white 1px;
+  border-radius: 50%;
+  padding: 5px;
+}
+#copy {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 9px;
+}
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    width: 100px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #try {
+    width: 100px;
+    font-size: 10px;
+  }
+  .landing-page {
+    background-image: url("./images/bg-hero-mobile.svg");
+    background-attachment: fixed;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .left {
+    flex-direction: column;
+    text-align: center;
+  }
+  #get {
+    width: 80%;
+    margin: auto;
+    font-size: 13px;
+  }
+  footer {
+    background-color: hsl(192, 100%, 9%);
+    margin-top: 220px;
+    padding: 0px;
+    padding-top: 150px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+  .firstcontent {
+    flex-direction: column-reverse;
+  }
+  .firstdiv {
+    display: flex;
+  }
+  #logo1 {
+    margin-left: 40px;
+    margin-bottom: 5px;
+  }
+  .get {
+    left: 25px;
+    width: 90%;
+  }
+  .get h1 {
+    padding-bottom: 15px;
+    padding-top: 20px;
+  }
+
+  .get button {
+    font-size: 10px;
+  }
+
+  #informations {
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+  #informations p {
+    padding-bottom: 15px;
+  }
+  #icons img {
+    display: block;
+    padding-top: 30px;
+  }
+
+  #secondp {
+    margin-bottom: 12px;
+  }
+
+  .footer-1 p {
+    padding-top: 18px;
+    text-align: left;
+  }
+
+  .fa {
+    margin-top: 20px;
+    margin-left: 55px;
+  }
+  #copy {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1281px) {
+  #logo1 {
+    margin-left: 85px;
+    margin-top: 50px;
+  }
+  .get {
+    left: 300px;
+    width: 60%;
+  }
+
+  #copy {
+    font-size: 11px;
+  }
+}
