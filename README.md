@@ -30,14 +30,15 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-view](./screenshots/desktop/)
-![Mobile-view](./screenshots/mobile/)
+[Desktop-view](./screenshots/desktop/)
+[Mobile-view](./screenshots/mobile/)
 
 
 
 ### Links
 
-- Solution URL: [https://github.com/alpbrace/Huddle-landing-page-with-alternating-feature-blocks-challenge-on-Frontend-Mentor]()
+- Solution URL: [https://github.com/alpbrace/huddle-landing-page]()
+- Live URL: [https://alpbrace.github.io/huddle-landing-page/]()
 
 ## My process
 

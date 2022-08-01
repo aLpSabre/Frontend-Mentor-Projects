@@ -19,19 +19,9 @@
       Frontend Mentor | Huddle landing page with alternating feature blocks
     </title>
     <link rel="stylesheet" href="styles.css" />
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <div class="landing-page">
+    <div class="landing-page" id="home">
       <div class="header">
         <nav>
           <img src="./images/logo.svg" alt="Huddle" id="logo" />
@@ -51,10 +41,10 @@
             but so does your audience. Create connections with your users as you
             engage in genuine discussion.
           </p>
-          <button id="get">Get Started For Free</button>
+          <button id="get_button">Get Started For Free</button>
         </div>
         <div class="right">
-          <img src="./images/illustration-mockups.svg" alt="" />
+          <img id="first_img" src="./images/illustration-mockups.svg" alt="" />
         </div>
       </div>
     </div>
@@ -114,7 +104,7 @@
 
     <div class="get">
       <h1>Ready To Build Your Community?</h1>
-      <button id="get">Get Started For Free</button>
+      <button id="get_button">Get Started For Free</button>
     </div>
 
     <footer>
@@ -124,9 +114,9 @@
         <div class="firstdiv">
           <div id="icons">
             <img src="./images/icon-location.svg" alt="" />
-  
+
             <img src="./images/icon-phone.svg" alt="" />
-  
+
             <img src="./images/icon-email.svg" alt="" />
           </div>
           <div id="informations">
@@ -135,14 +125,12 @@
               sed do eiusmod tempor incididunt ut labore et dolore <br />
               magna aliqua
             </p>
-  
+
             <p id="secondp">+1-543-123-4567</p>
-  
+
             <p>example@huddle.com</p>
           </div>
         </div>
-        
-       
 
         <div class="footer-1">
           <p>About Us</p>
@@ -155,9 +143,9 @@
           <p>Contact Us</p>
         </div>
         <div class="footer-1 logos">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-instagram"></a>
+          <a href="#home" class="fa fa-facebook"></a>
+          <a href="#home" class="fa fa-twitter"></a>
+          <a href="#home" class="fa fa-instagram"></a>
         </div>
       </div>
       <div id="copy">

@@ -4,12 +4,10 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
 body {
-  font-size: 13px;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
 }
 
 h1 {
@@ -17,6 +15,7 @@ h1 {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   text-align: left;
+  font-weight: 1200;
 }
 p {
   color: hsl(208, 11%, 55%);
@@ -24,6 +23,8 @@ p {
 .landing-page {
   background-image: url("./images/bg-hero-desktop.svg");
   background-color: hsl(193, 100%, 96%);
+  padding-bottom: 160px;
+  margin-bottom: 80px;
 }
 #first-p {
   color: hsl(192, 100%, 9%);
@@ -31,6 +32,7 @@ p {
 .header {
   display: block;
   padding: 30px 50px 0px 50px;
+  margin-bottom: 100px;
 }
 nav {
   display: flex;
@@ -44,10 +46,13 @@ nav {
   border-radius: 15px;
   cursor: pointer;
   text-align: center;
-  width: 150px;
+  width: 200px;
 }
 #logo {
-  width: 150px;
+  width: 200px;
+}
+#first_img {
+  width: 80%;
 }
 .content {
   display: flex;
@@ -66,14 +71,14 @@ nav {
   gap: 20px;
 }
 .content img {
-  width: 80%;
+  width: 60%;
 }
 .right {
   gap: 20px;
   text-align: center;
 }
 
-#get {
+#get_button {
   width: 50%;
   height: 5vh;
   border: none;
@@ -108,7 +113,7 @@ nav {
   z-index: -1px;
 }
 .get button {
-  margin-top: 10px;
+  margin-top: 20px;
   cursor: pointer;
 }
 .get h1 {
@@ -143,7 +148,7 @@ footer {
 }
 #icons img {
   display: block;
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
 #secondp {
@@ -181,23 +186,31 @@ footer {
     text-align: center;
     font-size: 18px;
   }
+  p {
+    font-size: 11px;
+  }
 
   #try {
     width: 100px;
     font-size: 10px;
   }
+  .header {
+    margin-bottom: 0px;
+  }
   .landing-page {
     background-image: url("./images/bg-hero-mobile.svg");
     background-attachment: fixed;
+    padding-bottom: 20px;
   }
   .content {
     flex-direction: column;
   }
+
   .left {
     flex-direction: column;
     text-align: center;
   }
-  #get {
+  #get_button {
     width: 80%;
     margin: auto;
     font-size: 13px;
@@ -259,7 +272,7 @@ footer {
 
   .fa {
     margin-top: 20px;
-    margin-left: 55px;
+    margin-left: 30px;
   }
   #copy {
     text-align: center;
