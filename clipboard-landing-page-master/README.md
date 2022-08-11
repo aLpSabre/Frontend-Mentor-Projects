@@ -30,7 +30,7 @@ Users should be able to:
 
 You can find the gifs in the screenshots directory.
 
-<img src="./screenshots/desktop-view.gif" width="500" height="400" alt="desktop_version">
+<img src="./desktop-view.gif" width="500" height="400" alt="desktop_version">
 
 
 
