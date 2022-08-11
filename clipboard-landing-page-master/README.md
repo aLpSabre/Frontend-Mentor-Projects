@@ -28,9 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-You can find the gifs in the screenshots directory.
 
-<img src="./desktop-view.gif" width="500" height="400" alt="desktop_version">
+
+<img src="./desktop-view.gif" width="500" height="500" alt="desktop_version">
+ <br/>
+
+<img src="./mobile-view.gif" width="500" height="500" alt="desktop_version">
 
 
 
