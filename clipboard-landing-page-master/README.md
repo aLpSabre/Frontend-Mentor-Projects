@@ -28,14 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-view]
-<br/>
+
+
 <img src="./screenshots/desktop-view" width="500" height="400" align="left" alt="desktop_version">
 
-![Mobile-view]
-<br/>
-<img src="./screenshots/mobile-view.gif" width="500" height="400" align="left" alt="desktop_version">
-<br/>
+
+
+
+
 
 
 ### Links
