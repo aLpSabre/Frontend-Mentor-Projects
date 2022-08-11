@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/alpsabre/huddle-landing-page]()
-- Live URL: [https://alpsabre.github.io/huddle-landing-page/]()
+- Solution URL: [https://github.com/aLpSabre/Frontend-Mentor-Projects/tree/main/huddle-landing-page]()
+- Live URL: [https://alpsabre.github.io/Frontend-Mentor-Projects/huddle-landing-page/]()
 
 ## My process
 
