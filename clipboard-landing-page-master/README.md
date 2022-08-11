@@ -30,7 +30,7 @@ Users should be able to:
 
 
 
-<img src="./screenshots/desktop-view" width="500" height="400" align="left" alt="desktop_version">
+<img src="./screenshots/desktop-view" width="500" height="400" alt="desktop_version">
 
 
 
