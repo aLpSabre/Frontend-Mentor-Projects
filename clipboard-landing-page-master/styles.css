@@ -87,6 +87,7 @@ button:hover{
   justify-content: center;
   width: 70%;
   margin: auto;
+  gap: 2rem;
 }
 .laptop-col,
 .features-col {
