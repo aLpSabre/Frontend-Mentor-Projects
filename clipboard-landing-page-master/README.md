@@ -6,7 +6,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -26,15 +26,15 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
 
-Desktop-view
+💻-Desktop-view:
 
 <br/>
 <img src="./desktop-view.gif" width="500" height="500" alt="desktop_version">
  <br/>
-Mobile-view
+📱-Mobile-view:
 <br/>
 <br/>
 <img src="./mobile-view.gif" width="300" height="500" alt="desktop_version">
