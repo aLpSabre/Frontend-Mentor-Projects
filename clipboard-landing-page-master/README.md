@@ -29,10 +29,10 @@ Users should be able to:
 ### Screenshot
 
 
-
+[Desktop-view]
 <img src="./desktop-view.gif" width="500" height="500" alt="desktop_version">
  <br/>
-
+[Mobile-view]
 <img src="./mobile-view.gif" width="300" height="500" alt="desktop_version">
 
 
