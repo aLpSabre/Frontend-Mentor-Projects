@@ -30,9 +30,11 @@ Users should be able to:
 
 
 [Desktop-view]
+<br/>
 <img src="./desktop-view.gif" width="500" height="500" alt="desktop_version">
  <br/>
 [Mobile-view]
+<br/>
 <img src="./mobile-view.gif" width="300" height="500" alt="desktop_version">
 
 
