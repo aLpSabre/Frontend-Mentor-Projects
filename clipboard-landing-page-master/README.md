@@ -30,7 +30,7 @@ Users should be able to:
 
 You can find the gifs in the screenshots directory.
 
-<img src="./screenshots/desktop-view" width="500" height="400" alt="desktop_version">
+<img src="./screenshots/desktop-view.gif" width="500" height="400" alt="desktop_version">
 
 
 
@@ -40,8 +40,8 @@ You can find the gifs in the screenshots directory.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/aLpSabre/Frontend-Mentor-Projects/tree/main/clipboard-landing-page-master)
+- Live Site URL: [Add live site URL here](https://alpsabre.github.io/Frontend-Mentor-Projects/clipboard-landing-page-master/)
 
 ## My process
 
