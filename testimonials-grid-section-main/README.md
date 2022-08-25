@@ -42,7 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/aLpSabre/Frontend-Mentor-Projects/tree/main/testimonials-grid-section-main)
-- Live Site URL: [Live site URL](testimonials-grid-section-main/)
+- Live Site URL: [Live site URL](https://alpsabre.github.io/Frontend-Mentor-Projects/testimonials-grid-section-main/)
 
 ## My process
 
