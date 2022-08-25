@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ solution URL here](https://alpsabre.github.io/Frontend-Mentor-Projects//testimonials-grid-section-main/
+- Solution URL: [ solution URL here](https://alpsabre.github.io/Frontend-Mentor-Projects//testimonials-grid-section-main/)
 - Live Site URL: [ live site URL here](https://github.com/aLpSabre/Frontend-Mentor-Projects/tree/main/testimonials-grid-section-main)
 
 ## My process
