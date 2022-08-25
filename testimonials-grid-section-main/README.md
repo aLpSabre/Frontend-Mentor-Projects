@@ -26,15 +26,23 @@ Users should be able to:
 
 ### Screenshot
 
+💻-Desktop-view
+<br>
+<br>
 ![Desktop-view](./screenshot.png)
+<br>
+<br>
+📱-Mobil-view
+<br>
+<br>
 ![Mobil-view](./gif.gif)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/aLpSabre/Frontend-Mentor-Projects/tree/main/testimonials-grid-section-main)
+- Live Site URL: [Live site URL](testimonials-grid-section-main/)
 
 ## My process
 
