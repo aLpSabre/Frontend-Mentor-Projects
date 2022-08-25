@@ -116,7 +116,7 @@ a {
   text-decoration: none;
   color: black;
 }
-@media (max-width: 375px) {
+@media (max-width: 380px) {
  
   h3{
     font-size: 1.1rem;
@@ -147,7 +147,7 @@ a {
     grid-row: 2;
     background-color: var(--very_dark_grayish_blue);
   }
-  .box2 .header{
+  .box2 .header,.box2 .rewiev{
     margin-top: 0;
   }
 
