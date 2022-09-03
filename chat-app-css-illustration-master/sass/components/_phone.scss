@@ -1,0 +1,148 @@
+.phone {
+  flex-basis: 30%;
+  min-width: 25%;
+  max-width: 70%;
+  min-height: 60vh;
+  background-color: $white;
+  padding: 13px;
+  border-radius: 15px;
+  position: relative;
+  .white {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    background-color: $white;
+    width: 50%;
+    height: 3vh;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .wrapper {
+    background-color: $lightGrayishViolet;
+    height: 100%;
+    z-index: 1;
+    border-radius: 15px;
+   
+    .header {
+      background: linear-gradient(to left, $lightMagenta, $lightViolet);
+      height: 8vh;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      color: $white;
+      padding: 0 2%;
+      @include flex();
+      justify-content: space-between;
+      .header-left {
+        @include flex();
+        gap: 10px;
+        .img img {
+          border-radius: 50%;
+          border: white 1px solid;
+          width: 30px;
+        }
+        .name {
+          font-weight: $font-weight-normal;
+          font-size: 0.7rem;
+          .avaible {
+            color: $paleViolet;
+            font-weight: $font-weight-thin;
+            font-size: 10px;
+            font-size: 0.5rem;
+          }
+        }
+      }
+      .header-right {
+        @include flex();
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+      }
+    }
+  }
+  .screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    .message {
+      width: 70%;
+      height: auto;
+      font-size: 0.6rem;
+      padding: 3% 5%;
+      margin: 2%;
+      border-radius: 15px;
+    }
+    .right-message {
+      align-self: flex-end;
+      color: $desaturatedDarkViolet;
+      background-color: $white;
+    }
+    .left-message {
+      color: $moderateViolet;
+      background-color: $paleViolet;
+    }
+    .pictures {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      background: none;
+      padding: 0;
+      gap: 10px;
+      img {
+        width: 30%;
+        border-radius: 10px;
+      }
+    }
+    .price {
+      @include flex();
+      color: $white;
+      justify-content: space-around;
+      width: 80%;
+      height: auto;
+      font-size: 0.6rem;
+      padding: 3% 5%;
+      margin: 2%;
+      border-radius: 15px;
+      background: linear-gradient(to right, $lightMagenta, $lightViolet);
+      height: 4vh;
+      .left-price {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        width: 80%;
+        height: 5vh;
+        .circle {
+          width: 10%;
+          height: 2vh;
+          border: solid 0.5px $white;
+          border-radius: 50%;
+          background-color: transparent;
+        }
+      }
+      .right-price {
+        font-size: 0.8rem;
+        font-weight: $font-weight-bold;
+      }
+    }
+    .type-box {
+      @include flex();
+      justify-content: space-between;
+      width: 95%;
+      font-size: 0.6rem;
+      padding: 4% 5%;
+      margin: 2% auto 1% auto;
+      background-color: $white;
+      border-radius: 10px;
+      color: $grayishBlue;
+      .send-button {
+        color: $white;
+        border-radius: 50%;
+        background-color: $veryDarkDesaturatedViolet;
+        width: 10%;
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+
+body{
+  min-width: 100%;
+  min-height: 100vh;
+  font-family: $font;
+  background-color: $lightGrayishViolet;
+  @include flex();
+  flex-direction: column;
+  main{
+   
+     @include flex();
+    min-width: 100%;
+    min-height: 90vh;
+  }
+  .right-gradient{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 27%;
+    max-width: 80%;
+    height: 90vh;
+    border-radius:100% 0% 100% 0% / 55% 100% 0% 45% ;
+    background-color: hsl(275, 62%, 89%);
+    z-index: -1;
+  }
+  .left-gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 27%;
+    max-width: 80%;
+    height: 90vh;
+    border-radius:0% 100% 81% 19% / 100% 0% 100% 0%  ;
+    background:linear-gradient($lightMagenta,$lightViolet);
+    z-index: -1;
+  }
+
+  .attribution{
+    color: $veryDarkDesaturatedViolet;
+    /* position: fixed;
+    bottom: 10px; */
+    font-size: 0.6rem;
+    a{
+      color: $veryDarkDesaturatedViolet;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .right-gradient{
+    opacity: 0;
+   }
+   body .left-gradient{
+   width: 90%;
+   }
+}
