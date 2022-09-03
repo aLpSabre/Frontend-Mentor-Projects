@@ -23,7 +23,8 @@ body .right-gradient {
   max-width: 80%;
   height: 90vh;
   border-radius: 100% 0% 100% 0%/55% 100% 0% 45%;
-  background-color: hsl(275deg, 62%, 89%);
+  background-color:hsl(276, 100%, 81%);
+  opacity: 0.2;
   z-index: -1;
 }
 body .left-gradient {
@@ -49,7 +50,7 @@ body .attribution a {
 
 @media (max-width: 800px) {
   .right-gradient {
-    opacity: 0;
+   display: none;
   }
   body .left-gradient {
     width: 80%;
@@ -110,9 +111,7 @@ body .attribution a {
 }
 .phone {
   flex-basis: 30%;
-  min-width: 30%;
-  max-width: 70%;
-  min-height: 60vh;
+  width: 15rem;
   background-color: hsl(0deg, 0%, 100%);
   padding: 13px;
   border-radius: 15px;
