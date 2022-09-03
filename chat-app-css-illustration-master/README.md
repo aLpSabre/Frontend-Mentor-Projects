@@ -26,8 +26,12 @@ Users should be able to:
 - **Bonus**: See the chat interface animate on the initial load
 
 ### Screenshot
-
+💻-Desktop-view
+<br/>
 ![Desktop-view](./screenshots/desktop-view.png)
+<br/>
+📱-Mobile-view
+<br/>
 ![Mobile-view](./screenshots/mobile-view.png)
 
 
@@ -69,7 +73,7 @@ body{
 @import "./components/body","./components/container","./components/info","./components/phone";
 @import "./base/reset";
 ```
-I also learned to use border radius in another way.You can see the code below.
+I also learned how to use border radius property in another way.You can see the code below.
 
 #
 ```css
