@@ -57,7 +57,7 @@ body .attribution a {
   }
 }
 .container {
-  min-width: 50%;
+  min-width: 40%;
   max-width: 80%;
   min-height: 90vh;
   display: flex;
@@ -110,7 +110,7 @@ body .attribution a {
 }
 .phone {
   flex-basis: 30%;
-  min-width: 35%;
+  min-width: 30%;
   max-width: 70%;
   min-height: 60vh;
   background-color: hsl(0deg, 0%, 100%);
