@@ -10,7 +10,7 @@ const ispElement = document.getElementById("isp");
 let ips = JSON.parse(localStorage.getItem("IPS")) || [];
 /* L.marker([38.9637, 35.2433],
   { alt: 'city' }).addTo(map) */
-  const accessToken = 'gmrZfcp8DZm0lWE9EFmO7cRLg6AohmioDxCgiLjkDTyLglJX9zxCgHV1M1NNcuyZ';
+  const accessToken = config.MY_API_TOKEN;
   const map = L.map('map').setView([38.9637, 35.2433], 6);
   L.tileLayer(
     `https://tile.jawg.io/jawg-terrain/{z}/{x}/{y}.png?access-token=${accessToken}`, {
