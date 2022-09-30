@@ -43,7 +43,7 @@ button {
 }
 
 #map {
-  height: calc(100vh - 225px);
+  height: calc(100vh - 240px);
   position: relative;
   z-index: 0;
 }
@@ -60,10 +60,19 @@ button {
 }
 button.remove{
   border-radius: 10px !important;
+  width: 150px !important;
+  font-size: 15px !important;
+  height: 40px !important;
 }
-.swal2-confirm {
+.ip{
+  font-weight: 600;
+}
+.swal2-confirm ,button.swal2-cancel{
   border-radius: 15px !important;
   width: 130px !important;
+}
+button.swal2-cancel{
+  margin-right: 10px;
 }
 @media (max-width: 986px) {
   .results div {
