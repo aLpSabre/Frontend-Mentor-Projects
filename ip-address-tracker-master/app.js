@@ -10,7 +10,7 @@ const ispElement = document.getElementById("isp");
 let ips = JSON.parse(localStorage.getItem("IPS")) || [];
 /* L.marker([38.9637, 35.2433],
   { alt: 'city' }).addTo(map) */
-  const accessToken = config.MY_API_TOKEN;
+  const accessToken = 'gmrZfcp8DZm0lWE9EFmO7cRLg6AohmioDxCgiLjkDTyLglJX9zxCgHV1M1NNcuyZ';
   const map = L.map('map').setView([38.9637, 35.2433], 6);
   L.tileLayer(
     `https://tile.jawg.io/jawg-terrain/{z}/{x}/{y}.png?access-token=${accessToken}`, {
@@ -19,10 +19,53 @@ let ips = JSON.parse(localStorage.getItem("IPS")) || [];
     maxZoom: 20
   }
   ).addTo(map);
+  
+  const buttonRemove =
+  '<button type="button" class="remove btn btn-danger">Delete the Marker!</button>';
+
+// remove marker
+function removeMarker() {
+  const marker = this;
+  console.log(marker.getLatLng().lat);
+  console.log(marker.getLatLng().lng);
+  let lat=marker.getLatLng().lat;
+  let lng=marker.getLatLng().lng;
+  const btn = document.querySelector(".remove");
+  btn.addEventListener("click", function () {
+    const markerPlace = document.querySelector(".marker-position");
+    ips=ips.filter(element => element.lat != lat || element.long != lng);
+    console.log(ips);
+
+    localStorage.setItem("IPS",JSON.stringify(ips));
+ 
+    map.removeLayer(marker);
+  });
+}
+
+// draged
+function dragedMaker() {
+  const markerPlace = document.querySelector(".marker-position");
+  markerPlace.textContent = `change position: ${this.getLatLng().lat}, ${
+    this.getLatLng().lng
+  }`;
+}
+
 function renderIps(ips){
   ips.forEach(element => {
-    L.marker([element.lat, element.long],
-      { alt: `${element.id}` }).addTo(map)
+    
+
+      const marker = new L.marker([element.lat, element.long], {
+        draggable: false
+      })
+        .addTo(map)
+        .bindPopup("sgs"+buttonRemove);
+    
+      // event remove marker
+      marker.on("popupopen", removeMarker);
+    
+      // event draged marker
+      marker.on("dragend", dragedMaker);
+ 
   });
 }
 renderIps(ips);
@@ -41,7 +84,6 @@ submit.addEventListener("click", () => {
   }
 
 })
-
 
 
 
@@ -91,12 +133,23 @@ function renderData(data) {
   locationElement.innerText = country + " ," + region + ", " + city;
   timezoneElement.innerText = "UTC" + " " + utc_offset;
   ispElement.innerText = org;
-  let marker = L.marker([latitude, longitude],
-    { alt: 'city' }).addTo(map) // "Kyiv" is the accessible name of this marker
-    .bindPopup(`Ip adress is ${ip}`);
-  /*   map.flyTo([latitude, longitude], 12,true) */
+  const marker = new L.marker([latitude, longitude], {
+    draggable: false
+  })
+    .addTo(map)
+    .bindPopup(buttonRemove);
+
+  // event remove marker
+  marker.on("popupopen", removeMarker);
+
+  // event draged marker
+  marker.on("dragend", dragedMaker);
   map.setView([latitude, longitude], 12)
 }
+/* 50.4558
+3.5655 */
+/* var layer=L.marker([38.9637, 35.2433]).addTo(map); */
+/*     layer.remove(); */
 
 /* getIP("8.8.8.8") */
 /* fetch('https://ipapi.co/8.8.8.8/json/')

@@ -58,7 +58,9 @@ button {
   text-decoration: none;
   color: #0078a8;
 }
-
+button.remove{
+  border-radius: 10px !important;
+}
 .swal2-confirm {
   border-radius: 15px !important;
   width: 130px !important;
@@ -98,11 +100,4 @@ button {
     
   }
 }
-/* let x=11
-var layer = L.marker(([38.9637, 35.2433]),{ alt: `${11}` });
-layer.addTo(map);  */
-/* myMap.addEventListener("click",(e)=>{
-  console.log(e.target)
-  console.log(e.target.innerText==="×");
-  if(e.target.innerText==="×")
-}) */
+
